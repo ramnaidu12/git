@@ -10,7 +10,13 @@
 9 . To undo changes in the unstaged changes use -> | git stash
 10 . To undo to the previous n commit/s use -> | git reset HEAD~n 
 11 . To discard commit process use -> | rm -Force .git/index.lock 
-9 . To create a branch use -> | git branch branch-name | git checkout -b branch-name
-10 . To move to a particular branch use -> | git checkout branch-name 
-11 . To merge changes from a branch use -> | git merge branch-name
-12 . To delete a branch use => | git brnach -d/-D  branch-name 
+12 . To create a branch use -> | git branch branch-name | git checkout -b branch-name
+13 . To relocate to a particular branch use -> | git checkout branch-name 
+14 . To merge changes from a branch use -> | git merge branch-name
+15 . To delete safely a branch use -> | git brnach -d  branch-name 
+16 . To foreful delete a branch use -> | git branch -D branch-name
+17 . To clone to a particular repo use -> | git clone remote-git-reop-url 
+18 . To push changes to a remote reop -> | git push -u origin main  - (first time) | git push 
+ 
+
+
